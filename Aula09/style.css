@@ -1,0 +1,25 @@
+body {
+    /* Imagem de Fundo */
+ background-image: url(1db7a2f6adb46d43048a04ab49dd6edda1bed49f57a91684c0c0de5a831e3e22.jpg);
+ background-repeat: no-repeat; /* Não repete o fundo */
+ background-size: cover;
+ /* Contain - aumenta a imagem sem cortar (deixa espaços vazios) */
+ /* cover - aumenta a imagem podendo cortar ela (não deixa espaços vazios) */
+ background-position: top;
+ /* Left - Right - Center - Top - Bottom */
+ background-attachment: fixed;
+ /* Scroll - Fundo mexe com o texto */
+ /* Fixed - fundo fica fixo */
+ background-color: aqua;
+}
+
+body::before {
+    content: "";
+    position: absolute;     
+    inset: 0;
+    background-color: lightgray;
+}
+
+p {
+    font-size: 90px;
+} 

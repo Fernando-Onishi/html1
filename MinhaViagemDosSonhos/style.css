@@ -1,0 +1,93 @@
+header{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #BF0A30;
+
+}
+
+#bandeira{
+    background-image: url(imaganes/Flag_of_the_United_States.svg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0 auto;
+    background-color: #002868;
+    overflow-x: hidden;
+}
+
+main{
+    margin-top: 25px;
+   text-align: center;
+   margin-bottom: 25px;
+   color: black;
+}
+
+main img{
+    width: 854px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+#texto {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#um{
+    max-width: 1500px;
+    background-color: white;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#um h1{
+    color: #BF0A30;
+}
+
+#dois{
+    max-width: 1500px;
+    background-color: white;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#dois h1{
+    color: #002868;
+}
+
+#tres {
+    max-width: 1500px;
+    background-color: white;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+footer{
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #FFFFFF;
+}

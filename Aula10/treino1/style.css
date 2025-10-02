@@ -1,0 +1,45 @@
+header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    padding: 25px;
+    z-index: -1;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    text-align: center;
+    margin-top: 150px;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.caixa {
+    background-color: blue;
+    position: absolute;
+    top: 1700px;
+    left: 90%;
+}
+
+.caixa1 {
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+
+.caixa2 {
+    background-color: green;
+    position: relative;
+    z-index: 1;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Lanches</title>
+</head>
+<body style="text-align: center;">
+    <form>
+        <fieldset style="text-align: center;">
+            <legend style="text-align: center;">Dados Pessoais:</legend>
+                <label>Nome:</label>
+                    <input type="text" placeholder="Insira seu nome:"><br>
+                <label>Telefone:</label>
+                <select name="DDD">
+                    <option value="11">11</option>
+                    <option value="11">12</option>
+                </select>
+            <input type="number" placeholder="Ex:98765-4321">
+        </fieldset>
+
+        <fieldset style="text-align: center;">
+            <legend style="text-align: center;">Escolha um dos lanches:</legend>
+                <input type="radio" name="radio">X-Salada
+                <input type="radio" name="radio">X-Bacon
+                <input type="radio" name="radio">X-Frango
+            </legend>
+        </fieldset>
+
+        <fieldset style="text-align: center;">
+            <legend style="text-align: center;">Adicionais:</legend>
+                <select name="Adicionais">
+                    <option value="Nenhum">Nenhum</option>
+                    <option value="Batata Frita">Batata Frita</option>
+                    <option value="Nuggets">Nuggets</option>
+                    <option value="Onion Rings">Onion Rings</option>
+                </select>
+        </fieldset>
+
+        <fieldset style="text-align: center;">
+            <legend style="text-align: center;">Bebidas:</legend>
+                <select name="Bebidas">
+                    <option value="Nenhuma">Nenhuma</option>
+                    <option value="Refrigerante">Refrigerante</option>
+                    <option value="Suco">Suco</option>
+                    <option value="Água">Água</option>
+                    <option value="Milkshake">Milkshake</option>
+                </select>
+        </fieldset>
+
+        <textarea style="text-align: center ;width: 50%;" placeholder="Comentários (ex.: sem cebola, bem passado):"></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
