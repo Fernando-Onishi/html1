@@ -1,9 +1,8 @@
 img{
     opacity: 0.5;
     transform: scale(0.5);
-    width: 400px;
+    width: 600px;
     border-radius: 12px;
-    width: 500px;
 }
 
 img:hover{
@@ -13,6 +12,7 @@ img:hover{
 
 body{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     transform: scale(1);
 }
