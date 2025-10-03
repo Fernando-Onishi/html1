@@ -1,16 +1,10 @@
 img{
     opacity: 0.5;
     transform: scale(0.5);
-    width: 400px;
-    border-radius: 12px;
+    width: 500px;
 }
 
 img:hover{
     opacity: 1;
-    transform: scale(0.8);
-}
-
-body{
-    display: flex;
-    justify-content: center;
+    transform: scale(1);
 }
