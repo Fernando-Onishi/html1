@@ -1,0 +1,32 @@
+div{
+    height: 150px;
+    width: 150px;
+    
+}
+.caixa1, .caixa3, .caixa5{
+    background-color: red;
+}
+
+.caixa2, .caixa4, .caixa6{
+    background-color: blue;
+}
+
+.caixa7, .caixa9, .caixa11{
+    background-color:orange;
+}
+
+.caixa8, .caixa10, .caixa12{
+    background-color: green;
+}
+
+body{
+    margin-left: 400px;
+
+    display: grid;
+
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto 25% auto;
+
+    height: 100vh;
+    gap: 10px;
+}
