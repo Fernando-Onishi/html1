@@ -1,0 +1,30 @@
+img{
+    width: 250px;
+}
+
+.blur{
+    filter: blur(5px);/*Desfoca a imagem*/
+}
+.grayscale{
+    filter: grayscale(100%); /*Deixa em preto e branco*/
+}
+
+.sepia{
+    filter: sepia(100%); /*deixa amarelado*/
+}
+
+.brightness{
+    filter: brightness(150%); /*Aumenta o brilho*/
+}
+.invert{
+    filter: invert(100%); /*Inverte as cores*/
+}
+.opacity{
+    filter: opacity(0.5); /*Mexe na transparecência*/
+}
+.contrast {
+    filter: contrast(120%); /*Aumenta/Diminuiu no contraste*/
+}
+img:hover{
+    filter: none;
+}

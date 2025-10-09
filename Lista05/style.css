@@ -1,0 +1,70 @@
+.grayscale{
+    filter: grayscale(100%);
+}
+
+.sepia{
+    filter: sepia(100%);
+}
+
+.invert{
+    filter: invert(100%);
+}
+
+.blur{
+    filter: blur(4px);
+}
+
+.brightness{
+    filter: brightness(150%);
+}
+
+.contrast{
+    filter: contrast(200%);
+}
+
+img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.imgEx2:hover{
+    filter: contrast(200%);
+    width: 700px;
+}
+
+.quagmire{
+    margin-top: 100px;
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.ex1{
+    
+}
+
+
+.ex2{
+    margin-top: 100px;
+}
+
+.ex3{
+    display: grid;
+
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto 60% auto;
+
+    height: 100vh;
+    gap: 15px;
+
+}
+
+.ex3 img{
+    filter: grayscale(100%);
+}
+
+.imgEx3:hover{
+    filter: none;
+}
