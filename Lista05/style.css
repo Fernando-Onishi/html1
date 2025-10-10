@@ -1,0 +1,73 @@
+.grayscale{
+    filter: grayscale(100%);
+}
+
+.sepia{
+    filter: sepia(100%);
+}
+
+.invert{
+    filter: invert(100%);
+}
+
+.blur{
+    filter: blur(4px);
+}
+
+.brightness{
+    filter: brightness(150%);
+}
+
+.contrast{
+    filter: contrast(200%);
+}
+
+img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.imgEx2:hover{
+    filter: contrast(200%);
+    width: 700px;
+}
+
+.ex2{
+    margin-top: 100px;
+}
+
+.ex3{
+    display: grid;
+
+    grid-template-columns: 22% 22% 22%;
+    grid-template-rows: auto 70% auto;
+
+    height: 100vh;
+    gap: 5px;
+    justify-content: center;   /* centraliza o grid horizontalmente */
+    align-items: center;       /* centraliza verticalmente */
+    text-align: center;
+}
+
+.ex3{
+    text-align: center;
+}
+
+.ex3 img{
+    filter: grayscale(100%) blur(5px);
+
+}
+
+.imgEx3:hover{
+    filter: none;;
+}
+
+body, main{
+    text-align: center;
+    margin: 0;
+}
+
+
+#img1, #img2{
+    margin-top: 250px;
+}
