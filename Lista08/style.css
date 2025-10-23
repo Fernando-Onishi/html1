@@ -1,0 +1,128 @@
+/* 1 */
+.quadrado{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation: movimento 3s infinite alternate;
+}
+
+@keyframes movimento {
+    from{background-color: red;}
+    to{background-color: blue;}
+
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(200px) translateX(-1);
+    }
+}
+
+/* 2 */
+.quadrado2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    animation: mudarCor 6s infinite alternate;
+}
+
+@keyframes mudarCor {
+    0%{background-color: red;}
+    50%{background-color: green;}
+    100%{background-color: blue;}
+}
+
+/* 3 */
+.Ex3{
+    margin-top: 50px;
+    width:200px;
+    height: 40px;
+    background-color: #FF6600;
+    border: none;
+    border-radius: 8px;
+    animation: botao 5s infinite alternate;
+}
+
+@keyframes botao {
+    from{background-color: #FF6600; color: black;}
+    to{background-color: #0046ff; color: white; transform: scale(2);}
+}
+
+/* 4 */
+.Ex4{
+    margin-top: 50px;
+    animation: trocarCor 2s infinite alternate;
+}
+
+@keyframes trocarCor {
+    0%{color: red;}
+    50%{color: green;}
+    100%{color: blue;}
+}
+
+/* 5 */
+.sol{
+    width: 250px;
+    height: 250px;
+    border: 8px solid lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.solImg{
+    width: 200px;
+    animation: solNascendo 5s infinite alternate;
+    
+}
+
+@keyframes solNascendo {
+    0%{
+        transform: translateY(0);
+    }
+    100%{transform: translateY(200px);}
+}
+
+/* 6 */
+.coracao{
+    margin-top: 150px;
+    width: 200px;
+    animation: batendo 2s infinite alternate;
+}
+
+@keyframes batendo {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.2);
+    }
+     50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+     100%{
+        transform: scale(1.2);
+    }
+}
+
+/* 7 */
+.Ex7{
+    margin-top: 100px;
+    animation: flutuando 2s infinite alternate;
+}
+
+@keyframes flutuando {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
