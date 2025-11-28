@@ -1,0 +1,138 @@
+header{
+    background-color: #0046FF;
+    color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.produto, .produtoEX4 {
+    border: 3px solid #E0E0E0;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 320px;   
+    border-radius: 10px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ex1, .ex2, .ex3, .ex4, .ex6{
+    background-color: #FF6600;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    transition: background-color 1s ease;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition-timing-function: linear;
+    cursor: pointer;
+    border: none;
+}
+
+/* Exercicio1 */
+.ex1:hover{
+    background-color: #0046FF;
+}
+
+/* Exercicio2 */
+.ex2{
+    transition: width 2s ease;
+}
+
+.ex2:hover{
+    background-color: #0046FF;
+    width: 320px;
+}
+
+/* Exercicio3 */
+.ex3{
+    color: black;
+    transition: background-color 0.5s ease;
+    transition: border 0.5s ease-in;
+}
+
+.ex3:hover{
+    border: 3px solid black;
+    background-color: #0046FF;
+}
+
+/* Exercicio 4 */
+.produtoEX4{
+    box-shadow: 0 0 10px gray;
+    transition: box-shadow 0.5s ease;
+    transition: background-color 1s ease;
+    transition: transform 1s ease-in;
+}
+
+.produtoEX4:hover{
+    box-shadow: 0 0 100px gray;
+    background-color: #0046FF;
+    transform: scale(110%);
+    color: white;
+}
+
+/* Exercicio 5 */
+
+.p2, .p3{
+    transition: font-size 1s ease;
+}
+
+.p2:hover, .p3:hover{
+    font-size: 18px;
+    color: #0046FF;
+}
+
+.p1{
+    transition-delay: 0.5s;
+    transition: font-size 1s ease-in;
+}
+
+.p1:hover{
+    color: #0046FF;
+    font-size: 18px;
+}
+
+/* Exercicio 6 */
+.imgEx6{
+    transition: transform 1s ease;
+}
+
+.imgEx6:hover{
+    transform: scale(110%);
+}
+
+/* Exercicio 7*/
+footer{
+    padding: 30px;
+    background-color: #0046FF;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: color 1s ease;
+}
+
+a:hover{
+    color: #FF6600;
+    text-decoration: underline;
+    text-decoration-color: #FF6600;
+    text-decoration-thickness: 3px;
+}

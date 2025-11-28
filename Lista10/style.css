@@ -1,0 +1,162 @@
+body{
+    text-align: center;
+}
+
+hr{
+    width: 85%;
+    margin-top: 30px;
+}
+.botao{
+    background-color: white;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+/* Ex 1 */
+#botao1:hover{
+    background-color: blue;
+    color: white;
+}
+#botao2:hover{
+    background-color: black;
+    color: white;
+}
+
+#botao3:hover{
+    background-color: red;
+    color: white;
+}
+
+
+/* Ex 2 */
+.botaoEx2{
+    margin-top: 20px;
+    background-color: darkblue;
+    color: white;
+    border: solid 1px;
+    margin-bottom: 20px;
+}
+
+.botaoEx2:active{
+    transform: scale(0.90);
+}
+
+
+/* Ex 3 */
+input{
+    padding: 5px;
+    border: 2 solid black;
+}
+
+.input1:focus{
+    border: 5px solid blue;
+    outline: none;
+    box-shadow: 0 0 20px darkblue;
+}
+
+.input2:focus{
+    border: 5px solid red;
+    outline: none;
+    box-shadow: 0 0 20px darkred;
+}
+
+.input3:focus{
+    border: 5px solid green;
+    outline: none;
+    box-shadow: 0 0 20px darkgreen;
+}
+
+
+/* Ex 4 */
+.Ex4{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 30px;
+    border: 2px solid  black;
+    width: 350px;
+    text-align: center;
+    transition: 1.5s;
+}
+
+.srIncrivel{
+    margin-top: 20px;
+    width: 300px;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px red;
+    background-color: darkred;
+    color: white;
+}
+
+/* Ex 5 */
+.Ex5{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    transition: 2s ease-in-out;
+}
+
+.img1:hover, .img2:hover, .img3:hover{
+    filter: grayscale(100%);
+}
+
+img{
+    width: 300px;
+}
+
+/* Ex 6 */
+.botaoEx6{
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    transition: 1.5s ease-in-out;
+}
+
+.botaoEx6:hover{
+    background-color: lightblue;
+}
+
+.botaoEx6:active{
+    transform: scale(0.85);
+}
+
+.botaoEx6:focus{
+    border: 5px solid red;
+}
+
+/* Ex 7 */
+.form{
+    transition: 1s ease-in-out;
+}
+
+.form:hover{
+    background-color: black;
+    color: white;
+}
+
+.form:focus{
+    border: 5px solid red;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.enviar{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+.enviar:hover{
+    background-color: black;
+    color: white;
+}
+
+.enviar:active{
+    transform: scale(0.90);
+}

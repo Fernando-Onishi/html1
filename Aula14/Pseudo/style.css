@@ -1,0 +1,27 @@
+.botao1{
+    background-color: red;
+    color: white;
+    transition: 3s ease-in-out;
+}
+
+.botao1:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+    /* Quando o clicar na caixa ela vai ficar em destaque, ativado quando está em foco */
+}
+
+.botao2{
+    background-color: blue;
+    color: white;
+}
+
+.botao2:active{
+    background-color: darkblue;
+    transform: scale(0.90);
+    /* Quando clicar e segurar ele tem animação de botão mesmo */
+}

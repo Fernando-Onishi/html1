@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "momo";
+    src: url(fonts/Momo_Signature/MomoSignature-Regular.ttf);
+}
+
+.fonte1{
+    font-family: "momo";
+}
+
+.fonte2{
+    font-family: "MontSerrat", sans-serif;
+}

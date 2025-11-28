@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bola{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 360px;
+    margin: 20px;
+    transition: transform 5s;
+}
+
+.container:hover .bola{
+    transform: translatex(300px);
+}
+
+.ease{
+    transition-timing-function: ease;
+    /* Devagar, acelera, devagar */
+}
+
+.linear{
+    transition-timing-function: linear;
+    /* Mesma Velocidade */
+}
+
+.ease-in{
+    transition-timing-function: ease-in;
+    /* Devagar, acelera */
+}
+
+.ease-out{
+    transition-timing-function: ease-out;
+    /* Rápido, devagar */
+}
+
+.ease-int-out{
+    transition-timing-function: ease-in-out;
+    /* Mistura do dois */
+}

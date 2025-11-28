@@ -32,20 +32,6 @@ img{
     width: 700px;
 }
 
-.quagmire{
-    margin-top: 100px;
-    text-align: center;
-    border: 1px solid black;
-    width: 400px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.ex1{
-    
-}
-
-
 .ex2{
     margin-top: 100px;
 }
@@ -53,18 +39,35 @@ img{
 .ex3{
     display: grid;
 
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: auto 60% auto;
+    grid-template-columns: 22% 22% 22%;
+    grid-template-rows: auto 70% auto;
 
     height: 100vh;
-    gap: 15px;
+    gap: 5px;
+    justify-content: center;   /* centraliza o grid horizontalmente */
+    align-items: center;       /* centraliza verticalmente */
+    text-align: center;
+}
 
+.ex3{
+    text-align: center;
 }
 
 .ex3 img{
-    filter: grayscale(100%);
+    filter: grayscale(100%) blur(5px);
+
 }
 
 .imgEx3:hover{
-    filter: none;
+    filter: none;;
+}
+
+body, main{
+    text-align: center;
+    margin: 0;
+}
+
+
+#img1, #img2{
+    margin-top: 250px;
 }
