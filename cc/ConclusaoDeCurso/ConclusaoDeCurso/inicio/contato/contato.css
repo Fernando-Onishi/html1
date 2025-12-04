@@ -30,6 +30,7 @@ header{
     position: fixed;
     z-index: 7;
     top: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 .COMECO{
@@ -45,7 +46,7 @@ header{
 .TITULOmain{
     font-size: 70px;
     margin: 0 auto;
-    font-family: "Kaushan";
+    font-family: "Poppins", sans-serif;
     color: white;
 }
 
@@ -108,7 +109,7 @@ header{
 
 body{
     margin: 0 auto;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     background-color: black;
 }
 
@@ -121,7 +122,7 @@ a{
 footer{
     background-color: #6e1e23;
     height: 19vh;
-    margin-top: 85px;
+    margin-top: 190px;
     width: 100%;
     border-top: 6px solid #6e1e23;
     display: flex;
@@ -152,6 +153,7 @@ footer hr{
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 50px;
 }
 
 .wpp{
@@ -160,7 +162,7 @@ footer hr{
 }
 
 .container{
-    margin-top: 150px;
+    margin-top: 170px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -169,6 +171,7 @@ p, strong{
     color: white;
     display: flex;
     justify-content: left;
+    font-family: "MontSerrat", sans-serif;
 }
 
 .numero{
@@ -184,7 +187,7 @@ p, strong{
 .contato1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 
 map{
@@ -203,7 +206,7 @@ map{
     display: flex;
     justify-content: space-evenly;
     margin-left: 450px;
-    margin-top: -150px;
+    margin-top: -300px;
 }
 
 .botao1{
@@ -214,6 +217,11 @@ map{
     justify-content: center;
     align-items: center;
     border-radius: 360px;
+    cursor: pointer;
+}
+
+.botao1:active{
+    transform: scale(0.9);
 }
 
 .botao1 img{
